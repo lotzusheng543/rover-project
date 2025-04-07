@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rover Control</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .top-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .top-section img {
+      max-width: 150px;
+      max-height: 150px;
+      border-radius: 10px;
+      background-color: white;
+      padding: 5px;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 80vh;
+    }
+
+    .left-box {
+      border: 2px solid white;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .arrow-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right-controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .speed-label {
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-decoration: underline;
+    }
+
+    .slider {
+      width: 200px;
+    }
+
+    .button {
+      width: 70px;
+      height: 70px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 8px;
+      border: 3px solid #01f;
+      background-color: #88f;
+      color: white;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #66c;
+    }
+
+    .stop-button {
+      background-color: red;
+      border: 2px solid lightgreen;
+      color: white;
+    }
+
+    .on-button {
+      background-color: orange;
+      border: 2px solid white;
+      color: black;
+    }
+
+    .go-button {
+      background-color: lightgreen;
+      border: 2px solid white;
+      color: black;
+    }
+
+    .stop-button:hover,
+    .on-button:hover,
+    .go-button:hover {
+      opacity: 0.7;
+    }
+
+    .control-buttons {
+      display: flex;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Logo -->
+  <div class="top-section">
+    <p>Group 5 Rover</p>
+    <img src="images/uos logo.png" alt="Logo" />
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="main-container">
+
+    <!-- Left Controls -->
+    <div class="left-box">
+      <div class="arrow-buttons">
+        <button class="button">←</button>
+        <button class="button go-button">⬆</button>
+        <button class="button">→</button>
+      </div>
+    </div>
+
+    <!-- Right Controls -->
+    <div class="right-controls">
+      <div class="speed-label">Speed</div>
+      <input type="range" class="slider" id="speedSlider" min="0" max="100" value="50">
+
+      <div class="control-buttons">
+        <button class="button stop-button">Stop</button>
+        <button class="button on-button">Petrol</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const slider = document.getElementById("speedSlider");
+    slider.addEventListener("input", () => {
+      console.log("Speed level:", slider.value);
+    });
+
+    function setBase64Image(base64String) {
+      document.getElementById("base64Image").src = base64String;
+    }
+  </script>
+</body>
+</html>
+
