@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rover Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 0;
+        }
+        .top-section {
+            margin: 20px auto;
+            text-align: center;
+        }
+        #base64Image {
+            max-width: 150px;
+            max-height: 150px;
+            border-radius: 10px;
+            background-color: white;
+            padding: 5px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80vh;
+        }
+        .control-section {
+            flex: 1;
+            text-align: center;
+        }
+        .control-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 75px;
+        }
+        .button {
+            width: 50px;
+            height: 50px;
+            font-size: 10px;
+            font-weight: bold;
+            border: 4px solid #01f;
+            background-color: #88f;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #66c;
+        }
+        .stop-button {
+            background-color: red;
+            border: 2px solid lightgreen;
+            color: white;
+        }
+        .on-button {
+            background-color: lightgreen;
+            border: 2px solid lightsalmon;
+            color: black;
+        }
+        .stop-button:hover, .on-button:hover {
+            opacity: 0.65;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Section for Base64 Image -->
+    <div class="top-section">
+        <p>Group 5 Rover</p>
+        <img  src='images/uos logo.png'>
+    </div>
+
+    <div class="container">
+        <!-- Left Section -->
+        <div class="control-section">
+            <p>Movement Controls</p>
+            <div class="control-buttons">
+                <div></div>
+                <button class="button">↑</button>
+                <div></div>
+                <button class="button">←</button>
+                <div></div>
+                <button class="button">→</button>
+                <div></div>
+                <button class="button">↓</button>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="control-section">
+            <p>EXTRA FUNCTION</p>
+            <button class="button stop-button">STOP</button>
+            <br><br>
+            <button class="button on-button">Straight</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to set a Base64 image dynamically
+        function setBase64Image(base64String) {
+            document.getElementById("base64Image").src = base64String;
+        }
+
+     
+
+</body>
+</html>
+
