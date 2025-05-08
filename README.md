@@ -9,7 +9,7 @@ The circuit testing:
 
 
 The final assembly of the rover:
-![rover picture](https://github.com/user-attachments/assets/96c99748-0c48-4abf-b9e3-6a479564f352)
+https://github.com/user-attachments/assets/96c99748-0c48-4abf-b9e3-6a479564f352
 
 
 
