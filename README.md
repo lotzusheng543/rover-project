@@ -3,6 +3,7 @@
 
 
 _The circuit and coding were detailed in this repository, and the photos are attached.
+
 The hardware is related to CAD design, laser cutting, and 3d printing, so the assembly is shown only._
 
 The circuit testing:
