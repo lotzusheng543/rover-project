@@ -1,5 +1,7 @@
 # rover-project
-UoSM year2 semester2 project
+UoSM year2 semester2 project - Group5
+The circuit and coding were shown in detail in this repository, and the photos are attached.
+The hardware is related to CAD design, laser cutting, and 3d printing, so the assembly is shown only.
 
 The circuit testing:
 ![circuit video](https://github.com/user-attachments/assets/9cab709e-d7d5-48cd-8e3c-f326b0bb3e80)
