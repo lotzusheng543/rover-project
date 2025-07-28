@@ -1,4 +1,4 @@
-# 🤖 Versatile Rover – Technical Design Report
+# 🤖 **Versatile Rover – Group5**
 
 This repository contains the detailed technical design, circuitry, coding, and hardware information for the **Versatile Rover**, developed as part of the **FEEG2001 Systems Design and Computing** project.
 
