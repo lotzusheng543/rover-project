@@ -194,3 +194,32 @@ https://github.com/user-attachments/assets/96c99748-0c48-4abf-b9e3-6a479564f352
 REAL Performance:
 ![rover performance](https://github.com/user-attachments/assets/a8a1dca2-ef85-4b2c-afae-4d63a94c9c3b)
 
+
+
+---
+
+## 🚀 Getting Started
+
+> 📂 See [`docs/`](./docs) for:
+> - ESP32 setup & flashing guide  
+> - Circuit diagrams & explanation (Appendix C)
+> - Hardware assembly instructions
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to our project supervisors:
+- Dr. Wong Kok Hoe
+- Dr. Shiau Ch’ng
+- Dr. Gooi Wen Pin
+- Dr. Adrian Tan
+
+---
+
+## 📄 License
+
+This project is for educational purposes under the University of Southampton Malaysia.  
+For external or commercial use, please contact the authors.
+
+---
