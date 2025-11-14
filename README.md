@@ -54,7 +54,7 @@ The final rover included:
 - Dr. Gooi Wen Pin
 - Dr. Adrian Tan
 
-📅 **Project Date:** 7 May 2025
+📅 **Project Date:**  1 Feb 2025 ~ 7 May 2025 
 
 ---
 
